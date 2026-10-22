@@ -56,7 +56,7 @@ function render(data, namaData){
             return //trus keluar dari for sama function ny
         }
     }
-    // jalan kesini pas for dah beres, yg mana artinya gk ada nama yg sesuai nama ny
+    // jalan kesini pas for dah beres, yg mana artinya gk ada nama yg sesuai nama ny, validasi input
     console.log("nama tidak ada untuk: ", namaData)
     isian.innerHTML = `
         <div class="card-salah">
