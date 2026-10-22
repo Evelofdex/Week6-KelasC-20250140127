@@ -27,7 +27,7 @@ async function ambilData(namaData){
 // load list
 window.addEventListener("load", ambilData(""))
 
-//tombol submit
+//tombol submit, event listener click
 submit.addEventListener("click", () => {
     let isiText = inputNama.value.toLowerCase()
     ambilData(isiText.trim())
