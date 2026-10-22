@@ -43,7 +43,9 @@ function render(data, namaData){
                         <p class="id">id: ${data[i].id}</p>
                         <p class="nama">${data[i].title}</p>
                     </div>
-                    <div class="card-pict"> </div> 
+                    <div class="card-pict"> 
+                        <img class="card-pict" src="${data[i].images[0]}" alt="gambar: ${data[i].title}">
+                    </div> 
                     <div class="card-desc">
                         <p class="desc">${data[i].description}</p>
                     </div>
